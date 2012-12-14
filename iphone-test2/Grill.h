@@ -12,6 +12,8 @@
     int time;
     
     CGPoint startPoint;
+    
+    int chippedState;
 }
 
 @property (strong, nonatomic) UIImageView* imageView;
@@ -22,6 +24,8 @@
 
 @property CGPoint startPoint;
 
+@property int chippedState;
+
 - (id) init:(UIImageView*) grillImage;
 
 - (void) startTimer:(Food*) food;
@@ -30,5 +34,8 @@
 - (BOOL) canBeMovedTo:(CGPoint)touchPoint;
 
 - (void) reset;
+
+- (BOOL) isTouchingAndBurned:(CGPoint)touchPoint;
+- (void) chip;
 
 @end

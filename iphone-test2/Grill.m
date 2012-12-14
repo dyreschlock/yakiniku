@@ -11,6 +11,8 @@
 
 @synthesize startPoint;
 
+@synthesize chippedState;
+
 - (id) init:(UIImageView *)grillImage {
     
     self = [super init];
@@ -18,6 +20,7 @@
     if(self) {
         imageView = grillImage;
         startPoint = imageView.center;
+        chippedState = 0;
     }
     
     return self;
@@ -30,6 +33,8 @@
     
     time = 14;
     timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateGrill) userInfo:nil repeats:YES];
+    
+    chippedState = 0;
 }
 
 - (void) updateGrill {
@@ -141,6 +146,57 @@
     [timer invalidate];
     
     time = 0;
+}
+
+- (BOOL) isTouchingAndBurned:(CGPoint)touchPoint {
+    
+    return time == 0 && imageView.image != nil &&
+            touchPoint.x > imageView.frame.origin.x &&
+            touchPoint.x < (imageView.frame.origin.x + imageView.frame.size.width) &&
+            touchPoint.y > imageView.frame.origin.y &&
+            touchPoint.y < (imageView.frame.origin.y + imageView.frame.size.height);
+}
+
+- (void) chip {
+    
+    chippedState = chippedState + 1;
+    
+    if(chippedState == 1)
+    {
+        if(foodType == @"turnip")
+        {
+            imageView.image = [UIImage imageNamed:@"turnip_7_chipped.png"];
+        }
+        if(foodType == @"chicken")
+        {
+            imageView.image = [UIImage imageNamed:@"chicken_7_chipped.png"];
+        }
+        if(foodType == @"steak")
+        {
+            imageView.image = [UIImage imageNamed:@"steak_7_chipped.png"];
+        }
+    }
+    if(chippedState == 2)
+    {
+        if(foodType == @"turnip")
+        {
+            imageView.image = [UIImage imageNamed:@"turnip_8_chipped.png"];
+        }
+        if(foodType == @"chicken")
+        {
+            imageView.image = [UIImage imageNamed:@"chicken_8_chipped.png"];
+        }
+        if(foodType == @"steak")
+        {
+            imageView.image = [UIImage imageNamed:@"steak_8_chipped.png"];
+        }
+    }
+    if(chippedState == 3)
+    {
+        imageView.image = nil;
+        chippedState = 0;
+    }
+    
 }
 
 

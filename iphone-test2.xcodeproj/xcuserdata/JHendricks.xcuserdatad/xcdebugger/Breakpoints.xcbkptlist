@@ -9,11 +9,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "iphone-test2/Dude.m"
-         timestampString = "377193952.256225"
+         timestampString = "377202019.925147"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "32"
-         endingLineNumber = "32"
+         startingLineNumber = "33"
+         endingLineNumber = "33"
          landmarkName = "-canBeMovedTo:"
          landmarkType = "5">
       </FileBreakpoint>

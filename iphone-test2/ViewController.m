@@ -142,6 +142,43 @@
     {
         movingFood = turnip;
     }
+    
+    if([grill1 isTouchingAndBurned:touchPoint])
+    {
+        [grill1 chip];
+    }
+    if([grill2 isTouchingAndBurned:touchPoint])
+    {
+        [grill2 chip];
+    }
+    if([grill3 isTouchingAndBurned:touchPoint])
+    {
+        [grill3 chip];
+    }
+    if([grill4 isTouchingAndBurned:touchPoint])
+    {
+        [grill4 chip];
+    }
+    if([grill5 isTouchingAndBurned:touchPoint])
+    {
+        [grill5 chip];
+    }
+    if([grill6 isTouchingAndBurned:touchPoint])
+    {
+        [grill6 chip];
+    }
+    if([grill7 isTouchingAndBurned:touchPoint])
+    {
+        [grill7 chip];
+    }
+    if([grill8 isTouchingAndBurned:touchPoint])
+    {
+        [grill8 chip];
+    }
+    if([grill9 isTouchingAndBurned:touchPoint])
+    {
+        [grill9 chip];
+    }
 
     if([grill1 canBeMovedFrom:touchPoint])
     {
