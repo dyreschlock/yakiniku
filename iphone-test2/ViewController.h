@@ -1,32 +1,32 @@
 #import <UIKit/UIKit.h>
 
+#import "Grill.h"
+#import "Food.h"
+#import "Dude.h"
+
 @interface ViewController : UIViewController {
     
-    UIImageView *movingObject;
+    Food* turnipFood;
+    Food* chickenFood;
+    Food* steakFood;
+
+    Food* movingFood;
     
-    NSTimer *grill1timer;
-    NSTimer *grill2timer;
-    NSTimer *grill3timer;
-    NSTimer *grill4timer;
-    NSTimer *grill5timer;
-    NSTimer *grill6timer;
-    NSTimer *grill7timer;
-    NSTimer *grill8timer;
-    NSTimer *grill9timer;
+    Grill *grill1;
+    Grill *grill2;
+    Grill *grill3;
+    Grill *grill4;
+    Grill *grill5;
+    Grill *grill6;
+    Grill *grill7;
+    Grill *grill8;
+    Grill *grill9;
     
-    int grill1time;
-    int grill2time;
-    int grill3time;
-    int grill4time;
-    int grill5time;
-    int grill6time;
-    int grill7time;
-    int grill8time;
-    int grill9time;
+    Grill* movingGrill;
     
-    NSTimer *dudeSteakTimer;
-    NSTimer *dudeChickenTimer;
-    NSTimer *dudeTurnipTimer;
+    Dude* dudeTurnipDude;
+    Dude* dudeChickenDude;
+    Dude* dudeSteakDude;
 }
 
 @property (weak, nonatomic) IBOutlet UIImageView *dudeSteak;
@@ -47,35 +47,27 @@
 @property (weak, nonatomic) IBOutlet UIImageView *chicken;
 @property (weak, nonatomic) IBOutlet UIImageView *turnip;
 
-@property (strong, nonatomic) UIImageView *movingObject;
+@property (strong, nonatomic) Food* turnipFood;
+@property (strong, nonatomic) Food* chickenFood;
+@property (strong, nonatomic) Food* steakFood;
 
-@property (strong, nonatomic) NSTimer *grill1timer;
-@property (strong, nonatomic) NSTimer *grill2timer;
-@property (strong, nonatomic) NSTimer *grill3timer;
-@property (strong, nonatomic) NSTimer *grill4timer;
-@property (strong, nonatomic) NSTimer *grill5timer;
-@property (strong, nonatomic) NSTimer *grill6timer;
-@property (strong, nonatomic) NSTimer *grill7timer;
-@property (strong, nonatomic) NSTimer *grill8timer;
-@property (strong, nonatomic) NSTimer *grill9timer;
+@property (strong, nonatomic) Food* movingFood;
 
-@property (strong, nonatomic) NSTimer *dudeSteakTimer;
-@property (strong, nonatomic) NSTimer *dudeChickenTimer;
-@property (strong, nonatomic) NSTimer *dudeTurnipTimer;
+@property (strong, nonatomic) Grill *grill1;
+@property (strong, nonatomic) Grill *grill2;
+@property (strong, nonatomic) Grill *grill3;
+@property (strong, nonatomic) Grill *grill4;
+@property (strong, nonatomic) Grill *grill5;
+@property (strong, nonatomic) Grill *grill6;
+@property (strong, nonatomic) Grill *grill7;
+@property (strong, nonatomic) Grill *grill8;
+@property (strong, nonatomic) Grill *grill9;
 
+@property (strong, nonatomic) Grill* movingGrill;
 
-@property CGPoint startPoint;
-@property CGPoint movingPoint;
-
-@property int grill1time;
-@property int grill2time;
-@property int grill3time;
-@property int grill4time;
-@property int grill5time;
-@property int grill6time;
-@property int grill7time;
-@property int grill8time;
-@property int grill9time;
+@property (strong, nonatomic) Dude* dudeTurnipDude;
+@property (strong, nonatomic) Dude* dudeChickenDude;
+@property (strong, nonatomic) Dude* dudeSteakDude;
 
 
 @end

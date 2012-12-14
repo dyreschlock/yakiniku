@@ -85,8 +85,8 @@
                                 <color key="backgroundColor" red="1" green="0.98823535439999999" blue="0.98823535439999999" alpha="0.25" colorSpace="deviceRGB"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="turnip_1_start.png" id="YU5-Gv-3Pj">
-                                <rect key="frame" x="368" y="115" width="100" height="50"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="steak_1_start.png" id="YU5-Gv-3Pj">
+                                <rect key="frame" x="368" y="253" width="100" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                             </imageView>
@@ -95,8 +95,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="steak_1_start.png" id="pUK-dH-jDg">
-                                <rect key="frame" x="368" y="253" width="100" height="50"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="turnip_1_start.png" id="pUK-dH-jDg">
+                                <rect key="frame" x="368" y="115" width="100" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                             </imageView>
@@ -139,28 +139,6 @@
         <image name="steak_1_start.png" width="100" height="47"/>
         <image name="turnip_1_start.png" width="100" height="42"/>
     </resources>
-    <classes>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="chicken" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="dudeChicken" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="dudeSteak" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="dudeTurnip" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="grillImage1" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="grillImage2" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="grillImage3" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="grillImage4" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="grillImage5" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="grillImage6" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="grillImage7" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="grillImage8" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="grillImage9" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="steak" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="turnip" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <nil key="statusBar"/>
         <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>

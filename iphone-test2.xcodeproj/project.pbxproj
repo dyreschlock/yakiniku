@@ -44,6 +44,8 @@
 		37434545167ACDC600E2A346 /* dude_turnip_eating_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3743453C167ACDC600E2A346 /* dude_turnip_eating_2.png */; };
 		37434546167ACDC600E2A346 /* dude_turnip_request.png in Resources */ = {isa = PBXBuildFile; fileRef = 3743453D167ACDC600E2A346 /* dude_turnip_request.png */; };
 		37AC4FEC167B6D3C00A3FBD8 /* Grill.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AC4FEB167B6D3C00A3FBD8 /* Grill.m */; };
+		37AC4FF0167B73BC00A3FBD8 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AC4FEF167B73BC00A3FBD8 /* Food.m */; };
+		37AC4FF3167B73C800A3FBD8 /* Dude.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AC4FF2167B73C800A3FBD8 /* Dude.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +92,10 @@
 		3743453D167ACDC600E2A346 /* dude_turnip_request.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dude_turnip_request.png; sourceTree = "<group>"; };
 		37AC4FEA167B6D3C00A3FBD8 /* Grill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grill.h; sourceTree = "<group>"; };
 		37AC4FEB167B6D3C00A3FBD8 /* Grill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grill.m; sourceTree = "<group>"; };
+		37AC4FEE167B73BC00A3FBD8 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		37AC4FEF167B73BC00A3FBD8 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		37AC4FF1167B73C800A3FBD8 /* Dude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dude.h; sourceTree = "<group>"; };
+		37AC4FF2167B73C800A3FBD8 /* Dude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dude.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,10 @@
 				374344F0167A376300E2A346 /* Supporting Files */,
 				37AC4FEA167B6D3C00A3FBD8 /* Grill.h */,
 				37AC4FEB167B6D3C00A3FBD8 /* Grill.m */,
+				37AC4FEE167B73BC00A3FBD8 /* Food.h */,
+				37AC4FEF167B73BC00A3FBD8 /* Food.m */,
+				37AC4FF1167B73C800A3FBD8 /* Dude.h */,
+				37AC4FF2167B73C800A3FBD8 /* Dude.m */,
 			);
 			path = "iphone-test2";
 			sourceTree = "<group>";
@@ -281,6 +291,8 @@
 				374344FA167A376300E2A346 /* AppDelegate.m in Sources */,
 				37434500167A376300E2A346 /* ViewController.m in Sources */,
 				37AC4FEC167B6D3C00A3FBD8 /* Grill.m in Sources */,
+				37AC4FF0167B73BC00A3FBD8 /* Food.m in Sources */,
+				37AC4FF3167B73C800A3FBD8 /* Dude.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
