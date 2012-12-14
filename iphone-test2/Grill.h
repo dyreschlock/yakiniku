@@ -31,6 +31,6 @@
 - (BOOL) canBeMovedFrom:(CGPoint)touchPoint;
 - (BOOL) canBeMovedTo:(CGPoint)touchPoint;
 
-- (void) returnToStart;
+- (void) reset;
 
 @end

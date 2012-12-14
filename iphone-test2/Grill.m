@@ -27,50 +27,98 @@
     imageView.image = food.imageView.image;
     foodType = food.foodType;
     
-    time = 20;
+    time = 14;
     grillTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateGrill) userInfo:nil repeats:YES];
     
 }
 
 - (void) updateGrill {
     
-    //    
-    //    time = time - 1;
-    //    
-    //    if(time == 17)
-    //    {
-    //        if(grillImage.image == steak.image)
-    //        {
-    //            
-    //        }
-    //        
-    //        grillImage1.image = [UIImage imageNamed:@"steak_2_cooking.png"];
-    //        
-    //    }
-    //    if(time == 13)
-    //    {
-    //        
-    //    }
-    //    if(time == 10)
-    //    {
-    //        
-    //    }
-    //    if(time == 5)
-    //    {
-    //        
-    //    }
-    //    if(time == 0)
-    //    {
-    //        
-    //    }
+    time = time -1;
+    
+    if(time == 12)
+    {
+        if(foodType == @"turnip")
+        {
+            imageView.image = [UIImage imageNamed:@"turnip_2_cooking.png"];
+        }
+        if(foodType == @"chicken")
+        {
+            imageView.image = [UIImage imageNamed:@"chicken_2_cooking.png"];
+        }
+        if(foodType == @"steak")
+        {
+            imageView.image = [UIImage imageNamed:@"steak_2_cooking.png"];
+        }
+    }
+    if(time == 10)
+    {
+        if(foodType == @"turnip")
+        {
+            imageView.image = [UIImage imageNamed:@"turnip_3_cooking.png"];
+        }
+        if(foodType == @"chicken")
+        {
+            imageView.image = [UIImage imageNamed:@"chicken_3_cooking.png"];
+        }
+        if(foodType == @"steak")
+        {
+            imageView.image = [UIImage imageNamed:@"steak_3_cooking.png"];
+        }
+    }
+    if(time == 8)
+    {
+        if(foodType == @"turnip")
+        {
+            imageView.image = [UIImage imageNamed:@"turnip_4_done.png"];
+        }
+        if(foodType == @"chicken")
+        {
+            imageView.image = [UIImage imageNamed:@"chicken_4_done.png"];
+        }
+        if(foodType == @"steak")
+        {
+            imageView.image = [UIImage imageNamed:@"steak_4_done.png"];
+        }
+    }
+    if(time == 4)
+    {
+        if(foodType == @"turnip")
+        {
+            imageView.image = [UIImage imageNamed:@"turnip_5_burning.png"];
+        }
+        if(foodType == @"chicken")
+        {
+            imageView.image = [UIImage imageNamed:@"chicken_5_burning.png"];
+        }
+        if(foodType == @"steak")
+        {
+            imageView.image = [UIImage imageNamed:@"steak_5_burning.png"];
+        }
+    }
+    if(time == 0)
+    {
+        if(foodType == @"turnip")
+        {
+            imageView.image = [UIImage imageNamed:@"turnip_6_burnt.png"];
+        }
+        if(foodType == @"chicken")
+        {
+            imageView.image = [UIImage imageNamed:@"chicken_6_burnt.png"];
+        }
+        if(foodType == @"steak")
+        {
+            imageView.image = [UIImage imageNamed:@"steak_6_burnt.png"];
+        }
 
-
-    [grillTimer invalidate];
+        [grillTimer invalidate];
+    }
 }
 
 - (BOOL) canBeMovedFrom:(CGPoint)touchPoint {
     
     return imageView.image != nil &&
+            time > 0 && time <= 8 &&
             touchPoint.x > imageView.frame.origin.x &&
             touchPoint.x < (imageView.frame.origin.x + imageView.frame.size.width) &&
             touchPoint.y > imageView.frame.origin.y &&
@@ -86,9 +134,13 @@
             touchPoint.y < (imageView.frame.origin.y + imageView.frame.size.height);
 }
 
-- (void) returnToStart {
+- (void) reset {
     
     imageView.center = startPoint;
+    
+    [grillTimer invalidate];
+    
+    time = 0;
 }
 
 

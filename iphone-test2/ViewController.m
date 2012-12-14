@@ -244,7 +244,7 @@
             [grill9 startTimer:movingFood];
         }
         
-        [movingFood returnToStart];
+        [movingFood reset];
         movingFood = nil;
     }
     if(movingGrill != nil)
@@ -252,17 +252,20 @@
         if([dudeTurnipDude canBeMovedTo:movingGrill])
         {
             [dudeTurnipDude startTimer];
+            movingGrill.imageView.image = nil;
         }
         if([dudeChickenDude canBeMovedTo:movingGrill])
         {
             [dudeChickenDude startTimer];
+            movingGrill.imageView.image = nil;
         }
         if([dudeSteakDude canBeMovedTo:movingGrill])
         {
             [dudeSteakDude startTimer];
+            movingGrill.imageView.image = nil;
         }
         
-        [movingGrill returnToStart];
+        [movingGrill reset];
         movingGrill = nil;
     }
 }
