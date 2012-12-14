@@ -43,6 +43,7 @@
 		37434544167ACDC600E2A346 /* dude_turnip_eating_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3743453B167ACDC600E2A346 /* dude_turnip_eating_1.png */; };
 		37434545167ACDC600E2A346 /* dude_turnip_eating_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3743453C167ACDC600E2A346 /* dude_turnip_eating_2.png */; };
 		37434546167ACDC600E2A346 /* dude_turnip_request.png in Resources */ = {isa = PBXBuildFile; fileRef = 3743453D167ACDC600E2A346 /* dude_turnip_request.png */; };
+		37AC4FEC167B6D3C00A3FBD8 /* Grill.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AC4FEB167B6D3C00A3FBD8 /* Grill.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,8 @@
 		3743453B167ACDC600E2A346 /* dude_turnip_eating_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dude_turnip_eating_1.png; sourceTree = "<group>"; };
 		3743453C167ACDC600E2A346 /* dude_turnip_eating_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dude_turnip_eating_2.png; sourceTree = "<group>"; };
 		3743453D167ACDC600E2A346 /* dude_turnip_request.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dude_turnip_request.png; sourceTree = "<group>"; };
+		37AC4FEA167B6D3C00A3FBD8 /* Grill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grill.h; sourceTree = "<group>"; };
+		37AC4FEB167B6D3C00A3FBD8 /* Grill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grill.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 				374344FE167A376300E2A346 /* ViewController.h */,
 				374344FF167A376300E2A346 /* ViewController.m */,
 				374344F0167A376300E2A346 /* Supporting Files */,
+				37AC4FEA167B6D3C00A3FBD8 /* Grill.h */,
+				37AC4FEB167B6D3C00A3FBD8 /* Grill.m */,
 			);
 			path = "iphone-test2";
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 				374344F6167A376300E2A346 /* main.m in Sources */,
 				374344FA167A376300E2A346 /* AppDelegate.m in Sources */,
 				37434500167A376300E2A346 /* ViewController.m in Sources */,
+				37AC4FEC167B6D3C00A3FBD8 /* Grill.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +392,7 @@
 				37434505167A376300E2A346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
