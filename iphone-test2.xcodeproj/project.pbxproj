@@ -48,7 +48,7 @@
 		37AC4FF3167B73C800A3FBD8 /* Dude.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AC4FF2167B73C800A3FBD8 /* Dude.m */; };
 		37AC4FFA167B990900A3FBD8 /* chicken_7_chipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AC4FF4167B990900A3FBD8 /* chicken_7_chipped.png */; };
 		37AC4FFB167B990900A3FBD8 /* chicken_8_chipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AC4FF5167B990900A3FBD8 /* chicken_8_chipped.png */; };
-		37AC4FFC167B990900A3FBD8 /* steak_7_chippedpng in Resources */ = {isa = PBXBuildFile; fileRef = 37AC4FF6167B990900A3FBD8 /* steak_7_chippedpng */; };
+		37AC4FFC167B990900A3FBD8 /* steak_7_chipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AC4FF6167B990900A3FBD8 /* steak_7_chipped.png */; };
 		37AC4FFD167B990900A3FBD8 /* steak_8_chipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AC4FF7167B990900A3FBD8 /* steak_8_chipped.png */; };
 		37AC4FFE167B990900A3FBD8 /* turnip_7_chipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AC4FF8167B990900A3FBD8 /* turnip_7_chipped.png */; };
 		37AC4FFF167B990900A3FBD8 /* turnip_8_chipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AC4FF9167B990900A3FBD8 /* turnip_8_chipped.png */; };
@@ -104,7 +104,7 @@
 		37AC4FF2167B73C800A3FBD8 /* Dude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dude.m; sourceTree = "<group>"; };
 		37AC4FF4167B990900A3FBD8 /* chicken_7_chipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken_7_chipped.png; sourceTree = "<group>"; };
 		37AC4FF5167B990900A3FBD8 /* chicken_8_chipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken_8_chipped.png; sourceTree = "<group>"; };
-		37AC4FF6167B990900A3FBD8 /* steak_7_chippedpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = steak_7_chippedpng; sourceTree = "<group>"; };
+		37AC4FF6167B990900A3FBD8 /* steak_7_chipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steak_7_chipped.png; sourceTree = "<group>"; };
 		37AC4FF7167B990900A3FBD8 /* steak_8_chipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steak_8_chipped.png; sourceTree = "<group>"; };
 		37AC4FF8167B990900A3FBD8 /* turnip_7_chipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turnip_7_chipped.png; sourceTree = "<group>"; };
 		37AC4FF9167B990900A3FBD8 /* turnip_8_chipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turnip_8_chipped.png; sourceTree = "<group>"; };
@@ -197,7 +197,7 @@
 				3743451E167AC5DD00E2A346 /* steak_4_done.png */,
 				3743451F167AC5DD00E2A346 /* steak_5_burning.png */,
 				37434520167AC5DD00E2A346 /* steak_6_burnt.png */,
-				37AC4FF6167B990900A3FBD8 /* steak_7_chippedpng */,
+				37AC4FF6167B990900A3FBD8 /* steak_7_chipped.png */,
 				37AC4FF7167B990900A3FBD8 /* steak_8_chipped.png */,
 				37434511167ABC4100E2A346 /* turnip_1_start.png */,
 				37434521167AC5DD00E2A346 /* turnip_2_cooking.png */,
@@ -297,7 +297,7 @@
 				37434546167ACDC600E2A346 /* dude_turnip_request.png in Resources */,
 				37AC4FFA167B990900A3FBD8 /* chicken_7_chipped.png in Resources */,
 				37AC4FFB167B990900A3FBD8 /* chicken_8_chipped.png in Resources */,
-				37AC4FFC167B990900A3FBD8 /* steak_7_chippedpng in Resources */,
+				37AC4FFC167B990900A3FBD8 /* steak_7_chipped.png in Resources */,
 				37AC4FFD167B990900A3FBD8 /* steak_8_chipped.png in Resources */,
 				37AC4FFE167B990900A3FBD8 /* turnip_7_chipped.png in Resources */,
 				37AC4FFF167B990900A3FBD8 /* turnip_8_chipped.png in Resources */,

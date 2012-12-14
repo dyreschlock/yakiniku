@@ -33,7 +33,8 @@
 - (BOOL) canBeMovedFrom:(CGPoint)touchPoint;
 - (BOOL) canBeMovedTo:(CGPoint)touchPoint;
 
-- (void) reset;
+- (void) completeCook;
+- (void) resetPosition;
 
 - (BOOL) isTouchingAndBurned:(CGPoint)touchPoint;
 - (void) chip;

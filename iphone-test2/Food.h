@@ -18,6 +18,6 @@
 
 - (BOOL) isTouching:(CGPoint)touchPoint;
 
-- (void) reset;
+- (void) resetPosition;
 
 @end

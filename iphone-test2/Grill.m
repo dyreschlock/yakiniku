@@ -139,13 +139,17 @@
             touchPoint.y < (imageView.frame.origin.y + imageView.frame.size.height);
 }
 
-- (void) reset {
+- (void) completeCook {
+    
+    imageView.image = nil;
+    time = 0;
+    [timer invalidate];
+    chippedState = 0;
+}
+
+- (void) resetPosition {
     
     imageView.center = startPoint;
-    
-    [timer invalidate];
-    
-    time = 0;
 }
 
 - (BOOL) isTouchingAndBurned:(CGPoint)touchPoint {

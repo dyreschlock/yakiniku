@@ -31,7 +31,7 @@
             touchPoint.y < (imageView.frame.origin.y + imageView.frame.size.height);
 }
 
-- (void) reset {
+- (void) resetPosition {
     
     imageView.center = startPoint;
 }
