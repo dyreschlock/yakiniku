@@ -6,12 +6,14 @@
 
 @interface ViewController : UIViewController {
     
-    Food* turnipFood;
-    Food* chickenFood;
-    Food* steakFood;
+    Dude* dudeTurnip;
+    Dude* dudeChicken;
+    Dude* dudeSteak;
 
-    Food* movingFood;
-    
+    Food* turnip;
+    Food* chicken;
+    Food* steak;
+
     Grill *grill1;
     Grill *grill2;
     Grill *grill3;
@@ -22,36 +24,36 @@
     Grill *grill8;
     Grill *grill9;
     
+    Food* movingFood;
     Grill* movingGrill;
-    
-    Dude* dudeTurnipDude;
-    Dude* dudeChickenDude;
-    Dude* dudeSteakDude;
 }
 
-@property (weak, nonatomic) IBOutlet UIImageView *dudeSteak;
-@property (weak, nonatomic) IBOutlet UIImageView *dudeChicken;
-@property (weak, nonatomic) IBOutlet UIImageView *dudeTurnip;
+@property (weak, nonatomic) IBOutlet UIImageView *dudeSteakImage;
+@property (weak, nonatomic) IBOutlet UIImageView *dudeChickenImage;
+@property (weak, nonatomic) IBOutlet UIImageView *dudeTurnipImage;
 
-@property (weak, nonatomic) IBOutlet UIImageView *grillImage1;
-@property (weak, nonatomic) IBOutlet UIImageView *grillImage2;
-@property (weak, nonatomic) IBOutlet UIImageView *grillImage3;
-@property (weak, nonatomic) IBOutlet UIImageView *grillImage4;
-@property (weak, nonatomic) IBOutlet UIImageView *grillImage5;
-@property (weak, nonatomic) IBOutlet UIImageView *grillImage6;
-@property (weak, nonatomic) IBOutlet UIImageView *grillImage7;
-@property (weak, nonatomic) IBOutlet UIImageView *grillImage8;
-@property (weak, nonatomic) IBOutlet UIImageView *grillImage9;
+@property (weak, nonatomic) IBOutlet UIImageView *turnipImage;
+@property (weak, nonatomic) IBOutlet UIImageView *chickenImage;
+@property (weak, nonatomic) IBOutlet UIImageView *steakImage;
 
-@property (weak, nonatomic) IBOutlet UIImageView *steak;
-@property (weak, nonatomic) IBOutlet UIImageView *chicken;
-@property (weak, nonatomic) IBOutlet UIImageView *turnip;
+@property (weak, nonatomic) IBOutlet UIImageView *grill1Image;
+@property (weak, nonatomic) IBOutlet UIImageView *grill2Image;
+@property (weak, nonatomic) IBOutlet UIImageView *grill3Image;
+@property (weak, nonatomic) IBOutlet UIImageView *grill4Image;
+@property (weak, nonatomic) IBOutlet UIImageView *grill5Image;
+@property (weak, nonatomic) IBOutlet UIImageView *grill6Image;
+@property (weak, nonatomic) IBOutlet UIImageView *grill7Image;
+@property (weak, nonatomic) IBOutlet UIImageView *grill8Image;
+@property (weak, nonatomic) IBOutlet UIImageView *grill9Image;
 
-@property (strong, nonatomic) Food* turnipFood;
-@property (strong, nonatomic) Food* chickenFood;
-@property (strong, nonatomic) Food* steakFood;
 
-@property (strong, nonatomic) Food* movingFood;
+@property (strong, nonatomic) Dude* dudeTurnip;
+@property (strong, nonatomic) Dude* dudeChicken;
+@property (strong, nonatomic) Dude* dudeSteak;
+
+@property (strong, nonatomic) Food* turnip;
+@property (strong, nonatomic) Food* chicken;
+@property (strong, nonatomic) Food* steak;
 
 @property (strong, nonatomic) Grill *grill1;
 @property (strong, nonatomic) Grill *grill2;
@@ -63,11 +65,8 @@
 @property (strong, nonatomic) Grill *grill8;
 @property (strong, nonatomic) Grill *grill9;
 
+@property (strong, nonatomic) Food* movingFood;
 @property (strong, nonatomic) Grill* movingGrill;
-
-@property (strong, nonatomic) Dude* dudeTurnipDude;
-@property (strong, nonatomic) Dude* dudeChickenDude;
-@property (strong, nonatomic) Dude* dudeSteakDude;
 
 
 @end

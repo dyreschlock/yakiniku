@@ -2,27 +2,31 @@
 
 @implementation ViewController
 
-@synthesize dudeSteak;
-@synthesize dudeChicken;
+@synthesize dudeSteakImage;
+@synthesize dudeChickenImage;
+@synthesize dudeTurnipImage;
+
+@synthesize turnipImage;
+@synthesize chickenImage;
+@synthesize steakImage;
+
+@synthesize grill1Image;
+@synthesize grill2Image;
+@synthesize grill3Image;
+@synthesize grill4Image;
+@synthesize grill5Image;
+@synthesize grill6Image;
+@synthesize grill7Image;
+@synthesize grill8Image;
+@synthesize grill9Image;
+
 @synthesize dudeTurnip;
+@synthesize dudeChicken;
+@synthesize dudeSteak;
 
-@synthesize grillImage1;
-@synthesize grillImage2;
-@synthesize grillImage3;
-@synthesize grillImage4;
-@synthesize grillImage5;
-@synthesize grillImage6;
-@synthesize grillImage7;
-@synthesize grillImage8;
-@synthesize grillImage9;
-
-
-@synthesize turnipFood;
-@synthesize chickenFood;
-@synthesize steakFood;
-
-@synthesize movingFood;
-
+@synthesize turnip;
+@synthesize chicken;
+@synthesize steak;
 
 @synthesize grill1;
 @synthesize grill2;
@@ -34,17 +38,8 @@
 @synthesize grill8;
 @synthesize grill9;
 
+@synthesize movingFood;
 @synthesize movingGrill;
-
-
-@synthesize steak;
-@synthesize chicken;
-@synthesize turnip;
-
-
-@synthesize dudeTurnipDude;
-@synthesize dudeChickenDude;
-@synthesize dudeSteakDude;
 
 
 - (void)didReceiveMemoryWarning
@@ -60,45 +55,45 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    grill1 = [[Grill alloc] init:grillImage1];
-    grill2 = [[Grill alloc] init:grillImage2];
-    grill3 = [[Grill alloc] init:grillImage3];
-    grill4 = [[Grill alloc] init:grillImage4];
-    grill5 = [[Grill alloc] init:grillImage5];
-    grill6 = [[Grill alloc] init:grillImage6];
-    grill7 = [[Grill alloc] init:grillImage7];
-    grill8 = [[Grill alloc] init:grillImage8];
-    grill9 = [[Grill alloc] init:grillImage9];
+    grill1 = [[Grill alloc] init:grill1Image];
+    grill2 = [[Grill alloc] init:grill2Image];
+    grill3 = [[Grill alloc] init:grill3Image];
+    grill4 = [[Grill alloc] init:grill4Image];
+    grill5 = [[Grill alloc] init:grill5Image];
+    grill6 = [[Grill alloc] init:grill6Image];
+    grill7 = [[Grill alloc] init:grill7Image];
+    grill8 = [[Grill alloc] init:grill8Image];
+    grill9 = [[Grill alloc] init:grill9Image];
     
-    turnipFood = [[Food alloc] init:turnip foodType:@"turnip"];
-    chickenFood = [[Food alloc] init:chicken foodType:@"chicken"];
-    steakFood = [[Food alloc] init:steak foodType:@"steak"];
+    turnip = [[Food alloc] init:turnipImage foodType:@"turnip"];
+    chicken = [[Food alloc] init:chickenImage foodType:@"chicken"];
+    steak = [[Food alloc] init:steakImage foodType:@"steak"];
 
-    dudeTurnipDude = [[Dude alloc] init:dudeTurnip foodType:@"turnip"];
-    dudeChickenDude = [[Dude alloc] init:dudeChicken foodType:@"chicken"];
-    dudeSteakDude = [[Dude alloc] init:dudeSteak foodType:@"steak"];
+    dudeTurnip = [[Dude alloc] init:dudeTurnipImage foodType:@"turnip"];
+    dudeChicken = [[Dude alloc] init:dudeChickenImage foodType:@"chicken"];
+    dudeSteak = [[Dude alloc] init:dudeSteakImage foodType:@"steak"];
     
 }
 
 - (void)viewDidUnload
 {
-    [self setGrillImage1:nil];
-    [self setGrillImage2:nil];
-    [self setGrillImage3:nil];
-    [self setGrillImage4:nil];
-    [self setGrillImage5:nil];
-    [self setGrillImage6:nil];
-    [self setGrillImage7:nil];
-    [self setGrillImage8:nil];
-    [self setGrillImage9:nil];
+    [self setDudeSteakImage:nil];
+    [self setDudeChickenImage:nil];
+    [self setDudeTurnipImage:nil];
     
-    [self setSteak:nil];
-    [self setChicken:nil];
-    [self setTurnip:nil];
+    [self setTurnipImage:nil];
+    [self setChickenImage:nil];
+    [self setSteakImage:nil];
     
-    [self setDudeSteak:nil];
-    [self setDudeChicken:nil];
-    [self setDudeTurnip:nil];
+    [self setGrill1Image:nil];
+    [self setGrill2Image:nil];
+    [self setGrill3Image:nil];
+    [self setGrill4Image:nil];
+    [self setGrill5Image:nil];
+    [self setGrill6Image:nil];
+    [self setGrill7Image:nil];
+    [self setGrill8Image:nil];
+    [self setGrill9Image:nil];
     
     [super viewDidUnload];
 }
@@ -135,17 +130,17 @@
     UITouch *myTouch = [touches anyObject];
     CGPoint touchPoint = [myTouch locationInView:self.view];
     
-    if([steakFood isTouching:touchPoint])
+    if([steak isTouching:touchPoint])
     {
-        movingFood = steakFood;
+        movingFood = steak;
     }
-    if([chickenFood isTouching:touchPoint])
+    if([chicken isTouching:touchPoint])
     {
-        movingFood = chickenFood;
+        movingFood = chicken;
     }
-    if([turnipFood isTouching:touchPoint])
+    if([turnip isTouching:touchPoint])
     {
-        movingFood = turnipFood;
+        movingFood = turnip;
     }
 
     if([grill1 canBeMovedFrom:touchPoint])
@@ -249,19 +244,19 @@
     }
     if(movingGrill != nil)
     {
-        if([dudeTurnipDude canBeMovedTo:movingGrill])
+        if([dudeTurnip canBeMovedTo:movingGrill])
         {
-            [dudeTurnipDude startTimer];
+            [dudeTurnip startTimer];
             movingGrill.imageView.image = nil;
         }
-        if([dudeChickenDude canBeMovedTo:movingGrill])
+        if([dudeChicken canBeMovedTo:movingGrill])
         {
-            [dudeChickenDude startTimer];
+            [dudeChicken startTimer];
             movingGrill.imageView.image = nil;
         }
-        if([dudeSteakDude canBeMovedTo:movingGrill])
+        if([dudeSteak canBeMovedTo:movingGrill])
         {
-            [dudeSteakDude startTimer];
+            [dudeSteak startTimer];
             movingGrill.imageView.image = nil;
         }
         

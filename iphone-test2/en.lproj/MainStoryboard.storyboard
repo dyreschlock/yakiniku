@@ -110,21 +110,21 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="chicken" destination="sfb-fq-S7F" id="aLi-CK-43a"/>
-                        <outlet property="dudeChicken" destination="Cqw-N0-fhV" id="Wvd-x5-QL9"/>
-                        <outlet property="dudeSteak" destination="5e2-ay-bVy" id="KeF-3v-mPM"/>
-                        <outlet property="dudeTurnip" destination="zGD-vg-bFA" id="ZhN-WL-7Ls"/>
-                        <outlet property="grillImage1" destination="ee4-0t-kEb" id="BPj-ma-OxI"/>
-                        <outlet property="grillImage2" destination="5cc-7a-YLh" id="mz4-l3-1wo"/>
-                        <outlet property="grillImage3" destination="fDz-gV-QXG" id="a7v-Ot-IRR"/>
-                        <outlet property="grillImage4" destination="dy9-2a-wl3" id="UO6-UE-Iss"/>
-                        <outlet property="grillImage5" destination="AX3-hr-jkB" id="DB0-zP-5u6"/>
-                        <outlet property="grillImage6" destination="92Z-hX-Ra6" id="xVg-DC-CsO"/>
-                        <outlet property="grillImage7" destination="Tgy-XQ-uIQ" id="I2m-M2-FEG"/>
-                        <outlet property="grillImage8" destination="gLR-AW-Qh1" id="nma-v9-G4y"/>
-                        <outlet property="grillImage9" destination="kHu-OL-vCh" id="cc2-2I-H2h"/>
-                        <outlet property="steak" destination="YU5-Gv-3Pj" id="2mu-eT-hcX"/>
-                        <outlet property="turnip" destination="pUK-dH-jDg" id="15H-Ki-n2v"/>
+                        <outlet property="chickenImage" destination="sfb-fq-S7F" id="Gfr-Dp-iwM"/>
+                        <outlet property="dudeChickenImage" destination="Cqw-N0-fhV" id="q5E-E8-PNR"/>
+                        <outlet property="dudeSteakImage" destination="5e2-ay-bVy" id="DaM-SN-63d"/>
+                        <outlet property="dudeTurnipImage" destination="zGD-vg-bFA" id="5g3-DK-IYv"/>
+                        <outlet property="grill1Image" destination="ee4-0t-kEb" id="YpV-7S-buJ"/>
+                        <outlet property="grill2Image" destination="5cc-7a-YLh" id="Jhb-Nf-hXV"/>
+                        <outlet property="grill3Image" destination="fDz-gV-QXG" id="kio-Fd-Um6"/>
+                        <outlet property="grill4Image" destination="dy9-2a-wl3" id="t4m-tR-oK6"/>
+                        <outlet property="grill5Image" destination="AX3-hr-jkB" id="yHn-dP-Gba"/>
+                        <outlet property="grill6Image" destination="92Z-hX-Ra6" id="44o-Nb-Nh7"/>
+                        <outlet property="grill7Image" destination="Tgy-XQ-uIQ" id="cYC-aK-1eF"/>
+                        <outlet property="grill8Image" destination="gLR-AW-Qh1" id="K4p-F1-Cxq"/>
+                        <outlet property="grill9Image" destination="kHu-OL-vCh" id="Bg2-eI-cu0"/>
+                        <outlet property="steakImage" destination="YU5-Gv-3Pj" id="QQw-Zb-uaX"/>
+                        <outlet property="turnipImage" destination="pUK-dH-jDg" id="4Qa-hH-SQR"/>
                     </connections>
                 </viewController>
             </objects>
