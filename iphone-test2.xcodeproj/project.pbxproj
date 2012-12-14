@@ -46,6 +46,12 @@
 		37AC4FEC167B6D3C00A3FBD8 /* Grill.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AC4FEB167B6D3C00A3FBD8 /* Grill.m */; };
 		37AC4FF0167B73BC00A3FBD8 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AC4FEF167B73BC00A3FBD8 /* Food.m */; };
 		37AC4FF3167B73C800A3FBD8 /* Dude.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AC4FF2167B73C800A3FBD8 /* Dude.m */; };
+		37AC4FFA167B990900A3FBD8 /* chicken_7_chipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AC4FF4167B990900A3FBD8 /* chicken_7_chipped.png */; };
+		37AC4FFB167B990900A3FBD8 /* chicken_8_chipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AC4FF5167B990900A3FBD8 /* chicken_8_chipped.png */; };
+		37AC4FFC167B990900A3FBD8 /* steak_7_chippedpng in Resources */ = {isa = PBXBuildFile; fileRef = 37AC4FF6167B990900A3FBD8 /* steak_7_chippedpng */; };
+		37AC4FFD167B990900A3FBD8 /* steak_8_chipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AC4FF7167B990900A3FBD8 /* steak_8_chipped.png */; };
+		37AC4FFE167B990900A3FBD8 /* turnip_7_chipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AC4FF8167B990900A3FBD8 /* turnip_7_chipped.png */; };
+		37AC4FFF167B990900A3FBD8 /* turnip_8_chipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AC4FF9167B990900A3FBD8 /* turnip_8_chipped.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +102,12 @@
 		37AC4FEF167B73BC00A3FBD8 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
 		37AC4FF1167B73C800A3FBD8 /* Dude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dude.h; sourceTree = "<group>"; };
 		37AC4FF2167B73C800A3FBD8 /* Dude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dude.m; sourceTree = "<group>"; };
+		37AC4FF4167B990900A3FBD8 /* chicken_7_chipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken_7_chipped.png; sourceTree = "<group>"; };
+		37AC4FF5167B990900A3FBD8 /* chicken_8_chipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken_8_chipped.png; sourceTree = "<group>"; };
+		37AC4FF6167B990900A3FBD8 /* steak_7_chippedpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = steak_7_chippedpng; sourceTree = "<group>"; };
+		37AC4FF7167B990900A3FBD8 /* steak_8_chipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steak_8_chipped.png; sourceTree = "<group>"; };
+		37AC4FF8167B990900A3FBD8 /* turnip_7_chipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turnip_7_chipped.png; sourceTree = "<group>"; };
+		37AC4FF9167B990900A3FBD8 /* turnip_8_chipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turnip_8_chipped.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,18 +189,24 @@
 				37434519167AC5DD00E2A346 /* chicken_4_done.png */,
 				3743451A167AC5DD00E2A346 /* chicken_5_burning.png */,
 				3743451B167AC5DD00E2A346 /* chicken_6_burnt.png */,
+				37AC4FF4167B990900A3FBD8 /* chicken_7_chipped.png */,
+				37AC4FF5167B990900A3FBD8 /* chicken_8_chipped.png */,
 				37434510167ABC4100E2A346 /* steak_1_start.png */,
 				3743451C167AC5DD00E2A346 /* steak_2_cooking.png */,
 				3743451D167AC5DD00E2A346 /* steak_3_cooking.png */,
 				3743451E167AC5DD00E2A346 /* steak_4_done.png */,
 				3743451F167AC5DD00E2A346 /* steak_5_burning.png */,
 				37434520167AC5DD00E2A346 /* steak_6_burnt.png */,
+				37AC4FF6167B990900A3FBD8 /* steak_7_chippedpng */,
+				37AC4FF7167B990900A3FBD8 /* steak_8_chipped.png */,
 				37434511167ABC4100E2A346 /* turnip_1_start.png */,
 				37434521167AC5DD00E2A346 /* turnip_2_cooking.png */,
 				37434522167AC5DD00E2A346 /* turnip_3_cooking.png */,
 				37434523167AC5DE00E2A346 /* turnip_4_done.png */,
 				37434524167AC5DE00E2A346 /* turnip_5_burning.png */,
 				37434525167AC5DE00E2A346 /* turnip_6_burnt.png */,
+				37AC4FF8167B990900A3FBD8 /* turnip_7_chipped.png */,
+				37AC4FF9167B990900A3FBD8 /* turnip_8_chipped.png */,
 				374344F1167A376300E2A346 /* iphone-test2-Info.plist */,
 				374344F2167A376300E2A346 /* InfoPlist.strings */,
 				374344F5167A376300E2A346 /* main.m */,
@@ -277,6 +295,12 @@
 				37434544167ACDC600E2A346 /* dude_turnip_eating_1.png in Resources */,
 				37434545167ACDC600E2A346 /* dude_turnip_eating_2.png in Resources */,
 				37434546167ACDC600E2A346 /* dude_turnip_request.png in Resources */,
+				37AC4FFA167B990900A3FBD8 /* chicken_7_chipped.png in Resources */,
+				37AC4FFB167B990900A3FBD8 /* chicken_8_chipped.png in Resources */,
+				37AC4FFC167B990900A3FBD8 /* steak_7_chippedpng in Resources */,
+				37AC4FFD167B990900A3FBD8 /* steak_8_chipped.png in Resources */,
+				37AC4FFE167B990900A3FBD8 /* turnip_7_chipped.png in Resources */,
+				37AC4FFF167B990900A3FBD8 /* turnip_8_chipped.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

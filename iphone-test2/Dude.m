@@ -5,6 +5,7 @@
 
 @synthesize imageView;
 @synthesize foodType;
+
 @synthesize timer;
 @synthesize time;
 

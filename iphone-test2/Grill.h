@@ -5,22 +5,20 @@
 
 @interface Grill : NSObject {
     
-    UIImageView *imageView;
-
-    NSTimer *grillTimer;
-    int time;
+    UIImageView* imageView;
+    NSString* foodType;
     
-    NSString *foodType;
+    NSTimer* timer;
+    int time;
     
     CGPoint startPoint;
 }
 
-@property (strong, nonatomic) UIImageView *imageView;
-@property (strong, nonatomic) NSTimer *grillTimer;
+@property (strong, nonatomic) UIImageView* imageView;
+@property (strong, nonatomic) NSString* foodType;
 
+@property (strong, nonatomic) NSTimer* timer;
 @property int time;
-
-@property (strong, nonatomic) NSString *foodType;
 
 @property CGPoint startPoint;
 

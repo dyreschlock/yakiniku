@@ -4,9 +4,10 @@
 @implementation Grill
 
 @synthesize imageView;
-@synthesize grillTimer;
-@synthesize time;
 @synthesize foodType;
+
+@synthesize timer;
+@synthesize time;
 
 @synthesize startPoint;
 
@@ -28,8 +29,7 @@
     foodType = food.foodType;
     
     time = 14;
-    grillTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateGrill) userInfo:nil repeats:YES];
-    
+    timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateGrill) userInfo:nil repeats:YES];
 }
 
 - (void) updateGrill {
@@ -111,7 +111,7 @@
             imageView.image = [UIImage imageNamed:@"steak_6_burnt.png"];
         }
 
-        [grillTimer invalidate];
+        [timer invalidate];
     }
 }
 
@@ -138,7 +138,7 @@
     
     imageView.center = startPoint;
     
-    [grillTimer invalidate];
+    [timer invalidate];
     
     time = 0;
 }
