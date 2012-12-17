@@ -43,6 +43,7 @@
 		37434544167ACDC600E2A346 /* dude_turnip_eating_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3743453B167ACDC600E2A346 /* dude_turnip_eating_1.png */; };
 		37434545167ACDC600E2A346 /* dude_turnip_eating_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3743453C167ACDC600E2A346 /* dude_turnip_eating_2.png */; };
 		37434546167ACDC600E2A346 /* dude_turnip_request.png in Resources */ = {isa = PBXBuildFile; fileRef = 3743453D167ACDC600E2A346 /* dude_turnip_request.png */; };
+		3788B9AF167C64200083D9BE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3788B9AE167C64200083D9BE /* Default-568h@2x.png */; };
 		37AC4FEC167B6D3C00A3FBD8 /* Grill.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AC4FEB167B6D3C00A3FBD8 /* Grill.m */; };
 		37AC4FF0167B73BC00A3FBD8 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AC4FEF167B73BC00A3FBD8 /* Food.m */; };
 		37AC4FF3167B73C800A3FBD8 /* Dude.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AC4FF2167B73C800A3FBD8 /* Dude.m */; };
@@ -96,6 +97,7 @@
 		3743453B167ACDC600E2A346 /* dude_turnip_eating_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dude_turnip_eating_1.png; sourceTree = "<group>"; };
 		3743453C167ACDC600E2A346 /* dude_turnip_eating_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dude_turnip_eating_2.png; sourceTree = "<group>"; };
 		3743453D167ACDC600E2A346 /* dude_turnip_request.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dude_turnip_request.png; sourceTree = "<group>"; };
+		3788B9AE167C64200083D9BE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		37AC4FEA167B6D3C00A3FBD8 /* Grill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grill.h; sourceTree = "<group>"; };
 		37AC4FEB167B6D3C00A3FBD8 /* Grill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grill.m; sourceTree = "<group>"; };
 		37AC4FEE167B73BC00A3FBD8 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		374344DA167A376300E2A346 = {
 			isa = PBXGroup;
 			children = (
+				3788B9AE167C64200083D9BE /* Default-568h@2x.png */,
 				374344EF167A376300E2A346 /* iphone-test2 */,
 				374344E8167A376300E2A346 /* Frameworks */,
 				374344E6167A376300E2A346 /* Products */,
@@ -301,6 +304,7 @@
 				37AC4FFD167B990900A3FBD8 /* steak_8_chipped.png in Resources */,
 				37AC4FFE167B990900A3FBD8 /* turnip_7_chipped.png in Resources */,
 				37AC4FFF167B990900A3FBD8 /* turnip_8_chipped.png in Resources */,
+				3788B9AF167C64200083D9BE /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
